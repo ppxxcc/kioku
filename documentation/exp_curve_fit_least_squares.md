@@ -69,7 +69,7 @@ $$ b = \frac{\sum_i{log(y_i)x_i}}{\sum_i{x_i^2}}$$
 
 ## Conclusion
 
-Provided a set of data points $(x_1, y_1), (x_2, y_2), ... , (x_n, y_n)$, we can find an exponential curve intercepting at $(0,1)$ with:
+Provided a set of data points $(x_1, y_1), (x_2, y_2), ... , (x_n, y_n)$, we can find an exponential best fit curve intercepting at $(0,1)$ with:
 
 $$y=exp(bx)$$ 
 

@@ -1,4 +1,4 @@
-# Exponential Curve Fit with Least Squares Method
+# Exponential Curve Fit using Method of Least Squares
 
 ## Derivation
 

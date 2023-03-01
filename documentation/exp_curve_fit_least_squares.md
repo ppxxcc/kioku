@@ -14,7 +14,7 @@ To make the operation linear, we will take the natural log on both sides.
 
 $$log(y)=log\big(exp(bx)\big)$$
 
-$$log(y)=log(bx)$$
+$$log(y)=bx$$
 
 In our least squares calculation, we wish to minimize the error between the real data point and the estimated curve.
 The error can be expressed as:
@@ -64,7 +64,7 @@ $$ b \sum_i{x_i^2} = \sum_i{log(y_i)x_i} $$
 
 Now, simply divide both sides to isolate and solve for b:
 
-$$ b = \frac{\sum_i{x_i^2}}{\sum_i{log(y_i)x_i}}$$
+$$ b = \frac{\sum_i{log(y_i)x_i}}{\sum_i{x_i^2}}$$
 
 
 ## Conclusion
@@ -75,4 +75,4 @@ $$y=exp(bx)$$
 
 where 
 
-$$b = \frac{\sum_i{x_i^2}}{\sum_i{log(y_i)x_i}} $$
+$$b = \frac{\sum_i{log(y_i)x_i}}{\sum_i{x_i^2}} $$

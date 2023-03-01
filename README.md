@@ -19,6 +19,10 @@ The algorithm of Kioku is inspired by the concepts of the SM6/SM7 algorithm, but
 After having used both Anki and SuperMemo, I have been convinced in the superiority of SuperMemo's dynamic, adaptive algorithms, versus Anki's SM2 based, static algorithm. However, modern SM algorithms (such as those used in SM15, SM18) are too opaque in my opinion.
 An SM6/SM7 style algorithm seems like a great balance between the simplicity of SM2 and the dynamic, adaptive, optimized nature of SM15/SM18.
 
+## Documentation
+
+A table of contents of available documentation can be found [here](docs.md).
+
 ## License
 
 Kioku is currently licensed under the [GNU Affero General Public License, Version 3.](LICENSE)

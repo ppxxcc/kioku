@@ -6,7 +6,7 @@ We wish to find an exponential curve of the form
 
 $$y = exp(bx)$$
 
-which will intercept at y=1 and has a single parameter B, which will be found to maximize the accuracy of the curve fit.
+which will intercept at $y=1$ and has a single parameter $b$, which will be found to maximize the accuracy of the curve fit.
 
 We can perform a sum of least squares to find the best fit.
 
